@@ -6,8 +6,8 @@
 **************************/
 
 // Includes
-#include "a3.pung.h"
-#include "a3.networking.h"
+#include "pung.pung.h"
+#include "pung.networking.h"
 
 // File specific definition
 #define sleepDelay   100
