@@ -1,15 +1,13 @@
 /**************************
-*	Assignment 3		   
-*	Damien DeCourcy 	   
-*   19042551	 			   
+*	Pung		   
+*	Damien DeCourcy 	 			   
 *	&					   
-*	Fletcher van Ameringen 
-*	19023939			   
+*	Fletcher van Ameringen 			   
 **************************/
 
 // Includes
-#include "a3.pung.h"
-#include "a3.networking.h"
+#include "pung.pung.h"
+#include "pung.networking.h"
 
 // File specific functions and even handlers
 static void             join_handler(void* arg, esp_event_base_t event_base, int32_t event_id, void* event_data);
