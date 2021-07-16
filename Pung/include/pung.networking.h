@@ -1,10 +1,8 @@
 /**************************
-*	Assignment 3		   
-*	Damien DeCourcy 	   
-*   19042551	 			   
+*	Pung	   
+*	Damien DeCourcy 	   	 			   
 *	&					   
-*	Fletcher van Ameringen 
-*	19023939			   
+*	Fletcher van Ameringen 		   
 **************************/
 
 // Network includes
@@ -19,13 +17,13 @@
 // Global prototypes
 void 		clientComms(pungrameters *params);
 void 		serverComms(pungrameters *params);
-int         socketClientTask();
+int     socketClientTask();
 int			socketServerTask(); 
-int         gameSelect();
-int         waitPlayer();
-void        stopSTAWifi();
-void        stopAPWifi();
-void        startHost();
+int     gameSelect();
+int     waitPlayer();
+void    stopSTAWifi();
+void    stopAPWifi();
+void    startHost();
 
 // Game socket
 int gameSocket;
